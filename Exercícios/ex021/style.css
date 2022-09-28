@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*Importando font family: source sans pro*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+/*Editando o Body*/
+body {
+    background-color: #fcd8d5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Título principal*/
+h1 {
+    padding: 0px 10px;
+    margin: auto;
+    font-size: 4em;
+    font-family: 'source sans pro', Tahoma, sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+    border: 20px solid black;
+}
+/*Menu interativo*/
+#menu {
+    background-color: #203F59;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 4px 1px;
+    font: lighter normal 25px Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #F2F2F2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+nav { /*Box onde ficam juntos os links*/
+    background-color: #203F59;
+    margin: auto;
+    border-radius: 4px 1px;
+    font: lighter normal 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav > a {/*boxes dos links*/
+    display: none;/*Escondendo os links das redes sociais*/
+    font: lighter normal 20px Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+    padding: 5px 20px;
+}
+
+nav:hover > h1 {/*Cria uma linha em baixo da box quando passa o mouse em cima*/
+    border-bottom: 2px solid black;   
+}
+
+nav:hover > a {
+    display: inline-block;/*mostrando os links quando passo o mouse em cima*/
+}
+
+nav > a:hover {
+    color: #0D0D0D;
+}
+
+nav > a:active {
+    color: #8c7472;
+}
+
+/*Conteúdo da página*/
+main {
+    background-color: #b6ddfd9f;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+/*Subtítulos*/
+h2 {
+    font: normal normal 2em 'source sans pro', Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+/*Conteúdo primeiro subtítulo*/
+article {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+/*Imagem em cima do conteúdo do primeiro subtítulo*/
+img {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+/*Rodapé*/
+footer {
+    text-align: right;
+    padding-right: 6px;
+    margin: auto;
+    background-color: #8c7472be;
+    border-radius: 2.5px;
+}
+

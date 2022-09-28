@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #011640;
+}
+
+div {
+    width: fit-content;
+    background-color: rgba(255, 255, 195, 0.753);
+}
+
+div > p {
+    display: none;
+    width: 200px;
+}
+
+div:hover {
+    color: #568ebd;
+}
+
+div:hover > p {
+    display: block;
+    background-color: #8C7472;
+    color: #0D0D0D;
+}
